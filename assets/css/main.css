@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 80px;
+  width: 100%;
+}
+.nav .navDiv {
+  width: 75%;
+  height: 100%;
+}
+.nav .navDiv2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.nav .navDiv2 .navUl {
+  width: 50%;
+  justify-content: end;
+  gap: 30px;
+}
+.nav .navDiv2 .navUl .li a {
+  color: #14435c;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24;
+}
+
+#firstSec {
+  background-image: url(/assets/image/h1_hero.jpg);
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#firstSec .h2pbtn {
+  width: 90%;
+  height: 55%;
+  gap: 30px;
+}
+#firstSec .h2pbtn span {
+  color: #eb566c;
+  font-size: 19px;
+  line-height: 500;
+  font-family: poppins;
+  line-height: 27px;
+}
+#firstSec .h2pbtn h2 {
+  width: 50%;
+  font-size: 71px;
+  font-weight: 800;
+  line-height: 85px;
+  font-family: Sarabun, sans-serif;
+}
+#firstSec .h2pbtn p {
+  font-size: 16px;
+  width: 30%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+#firstSec .h2pbtn button {
+  background-color: #EB6075;
+  color: white;
+  width: 15%;
+  height: 12%;
+  border: none;
+  font-weight: 700;
+}
+
+#ourBestServices {
+  width: 100%;
+  background-color: #F7F7F7;
+  height: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ourBestServices .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#ourBestServices .container .row {
+  height: 100%;
+}
+#ourBestServices .container .row .ourBestServicesTxt {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#ourBestServices .container .row .ourBestServicesTxt span {
+  color: #eb566c;
+  font-size: 19px;
+  line-height: 500;
+  font-family: poppins;
+  line-height: 27px;
+}
+#ourBestServices .container .row .ourBestServicesTxt h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #092c3f;
+  font-weight: 900;
+}
+#ourBestServices .container .row .col-4 {
+  display: flex;
+}
+#ourBestServices .container .row .col-4 .service {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: max-content;
+  padding: 20px 0px;
+  gap: 30px;
+  height: 90%;
+}
+#ourBestServices .container .row .col-4 .service i {
+  font-size: 75px;
+}
+#ourBestServices .container .row .col-4 .service h3 {
+  font-size: 24px;
+  font-family: poppins;
+  line-height: 29px;
+  font-weight: 600;
+}
+#ourBestServices .container .row .col-4 .service p {
+  width: 90%;
+  text-align: center;
+  height: 20%;
+}
+
+#moreAboutUs {
+  background-image: url(/assets/image/section_bg02.jpg);
+  height: 806px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#moreAboutUs .about {
+  height: 90%;
+  display: flex;
+  gap: 25px;
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+}
+#moreAboutUs .about button {
+  background-color: #EB6075;
+  color: white;
+  width: 35%;
+  height: 12%;
+  border: none;
+  font-weight: 700;
+}
+#moreAboutUs .about h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 900;
+}
