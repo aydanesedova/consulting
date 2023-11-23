@@ -19,7 +19,6 @@
 }
 .nav .navDiv2 .navUl {
   width: 50%;
-  justify-content: end;
   gap: 30px;
 }
 .nav .navDiv2 .navUl .li a {
@@ -53,15 +52,16 @@
   line-height: 27px;
 }
 #firstSec .h2pbtn h2 {
-  width: 50%;
+  width: 60%;
   font-size: 71px;
   font-weight: 800;
   line-height: 85px;
+  color: black;
   font-family: Sarabun, sans-serif;
 }
 #firstSec .h2pbtn p {
   font-size: 16px;
-  width: 30%;
+  width: 44%;
   height: 20%;
   display: flex;
   align-items: center;
@@ -70,12 +70,16 @@
   font-family: "Roboto", sans-serif;
 }
 #firstSec .h2pbtn button {
-  background-color: #EB6075;
+  background-color: #FF2147;
   color: white;
-  width: 15%;
+  width: 17%;
   height: 12%;
   border: none;
-  font-weight: 700;
+  font-weight: 500;
+  background: #ff2143;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 14 px;
 }
 
 #ourBestServices {
@@ -131,6 +135,7 @@
 }
 #ourBestServices .container .row .col-4 .service i {
   font-size: 75px;
+  color: #EB566C;
 }
 #ourBestServices .container .row .col-4 .service h3 {
   font-size: 24px;
@@ -164,15 +169,626 @@
   text-align: start;
 }
 #moreAboutUs .about button {
-  background-color: #EB6075;
+  background-color: #FF2147;
   color: white;
-  width: 35%;
-  height: 12%;
+  width: 38%;
+  height: 10%;
   border: none;
-  font-weight: 700;
+  font-weight: 300;
+  background: #ff2143;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  font-size: 14 px;
 }
 #moreAboutUs .about h2 {
   font-size: 50px;
   line-height: 60px;
   font-weight: 900;
+}
+
+#ourPortfoliosofCases {
+  width: 100%;
+  height: 1510px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F7;
+}
+#ourPortfoliosofCases .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#ourPortfoliosofCases .container .row {
+  height: 100%;
+}
+#ourPortfoliosofCases .container .row .featuredCaseStudy {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+}
+#ourPortfoliosofCases .container .row .featuredCaseStudy span {
+  color: #eb566c;
+  font-size: 19px;
+  line-height: 500;
+  font-family: poppins;
+  line-height: 27px;
+}
+#ourPortfoliosofCases .container .row .featuredCaseStudy h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #092c3f;
+  font-weight: 900;
+}
+#ourPortfoliosofCases .container .row .StrategyPlaning {
+  height: 100%;
+  position: relative;
+}
+#ourPortfoliosofCases .container .row .StrategyPlaning img {
+  width: 100%;
+}
+#ourPortfoliosofCases .container .row .StrategyPlaning .StrategyPlaningTxt {
+  position: absolute;
+  width: 85%;
+  bottom: 15%;
+  height: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+#ourPortfoliosofCases .container .row .StrategyPlaning span {
+  line-height: 13px;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  color: #e94d65;
+  font-weight: 300;
+  font-size: 14px;
+  display: block;
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+#ourPortfoliosofCases .container .row .StrategyPlaning p {
+  font-family: poppins;
+  color: #000000;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  width: 95%;
+}
+
+#sign {
+  background-image: url(/assets/image/section_bg04.jpg);
+  height: 657px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sign .container {
+  height: 80%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#sign .container .row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sign .container .row .JessyaInnAll {
+  width: 100%;
+  height: 85%;
+}
+#sign .container .row .JessyaInnAll .JessyaInn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#sign .container .row .JessyaInnAll .JessyaInn i {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: #F04E3C;
+}
+#sign .container .row .JessyaInnAll .JessyaInn p {
+  width: 64%;
+  font-family: poppins;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #D2D2D3;
+}
+#sign .container .row .JessyaInnAll .JessyaInn .chifPhotographer {
+  width: 50%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sign .container .row .JessyaInnAll .JessyaInn .chifPhotographer .chifPhotographerTxt {
+  width: 30%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#sign .container .row .JessyaInnAll .JessyaInn .chifPhotographer .chifPhotographerTxt span {
+  width: 100%;
+  font-size: 30px;
+  font-family: poppins;
+  line-height: 45px;
+  font-weight: 600;
+  color: #f04e3c;
+}
+#sign .container .row .JessyaInnAll .JessyaInn .chifPhotographer .chifPhotographerTxt p {
+  color: #57667e;
+  font-size: 16px;
+  font-family: poppins;
+  line-height: 24px;
+  font-weight: 500;
+  width: 100%;
+  height: 40%;
+}
+#sign .container .row .col-3 {
+  height: 34%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 14%;
+}
+#sign .container .row .col-3 .statisticsactiveClients {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+#sign .container .row .col-3 .statisticsactiveClients .activeClients {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #FF2143;
+  width: 92%;
+  height: 88%;
+}
+#sign .container .row .col-3 .statisticsactiveClients .activeClients span {
+  font-size: 60px;
+  color: white;
+  line-height: 60px;
+  font-weight: 600;
+  height: 50%;
+}
+#sign .container .row .col-3 .statisticsactiveClients .activeClients p {
+  color: white;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: poppins;
+}
+#sign .container .row .col-3 .statistics {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #CFCFCF;
+}
+#sign .container .row .col-3 .statistics .statisticsTxt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 92%;
+  height: 88%;
+}
+#sign .container .row .col-3 .statistics .statisticsTxt span {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 500;
+  height: 50%;
+}
+#sign .container .row .col-3 .statistics .statisticsTxt p {
+  color: #737980;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: poppins;
+}
+
+#ourProfessionalMembers {
+  width: 100%;
+  height: 1145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+#ourProfessionalMembers .teamMember {
+  width: 95%;
+  height: 100%;
+  background-color: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+#ourProfessionalMembers .teamMember img {
+  width: 100%;
+  height: 80%;
+}
+#ourProfessionalMembers .teamMember h3 {
+  width: 70%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+#ourProfessionalMembers .teamMember span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55%;
+  height: 10%;
+  gap: 10px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ff2143;
+  font-weight: 300;
+}
+#ourProfessionalMembers .teamMember span .redline {
+  width: 17%;
+  height: 2px;
+  background-color: #EB566C;
+}
+#ourProfessionalMembers .ourProfessionalMembersTxt {
+  width: 100%;
+  height: 150px;
+}
+#ourProfessionalMembers .ourProfessionalMembersTxt h2 {
+  font-size: 50px;
+  color: #092c3f;
+  font-weight: 900;
+}
+#ourProfessionalMembers .ourProfessionalMembersTxt span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #eb566c;
+}
+#ourProfessionalMembers .ourProfessionalMembersTxt span .redLine {
+  width: 4%;
+  height: 2px;
+  background-color: #EB566C;
+}
+
+#areYouSearching {
+  background-image: url(/assets/image/section_bg03.jpg);
+  height: 324px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#areYouSearching .areYouSearchingTxt {
+  width: 100%;
+}
+#areYouSearching .areYouSearchingTxt h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+#areYouSearching .areYouSearchingBtn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#areYouSearching .areYouSearchingBtn button {
+  width: 44%;
+  height: 33%;
+  background-color: #000000;
+  color: white;
+  border: none;
+  font-size: 18px;
+  transition: ease 0.3s;
+}
+#areYouSearching .areYouSearchingBtn button:hover {
+  background-color: white;
+  color: black;
+}
+
+#recendNewsofUs {
+  width: 100%;
+  height: 1345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+#recendNewsofUs .recendNewsofUsTxt {
+  width: 100%;
+  height: 204px;
+}
+#recendNewsofUs .recendNewsofUsTxt h2 {
+  font-size: 50px;
+  color: #092c3f;
+  font-weight: 900;
+}
+#recendNewsofUs .recendNewsofUsTxt span {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #eb566c;
+}
+#recendNewsofUs .recendNewsofUsTxt span .redLine {
+  width: 4%;
+  height: 2px;
+  background-color: #EB566C;
+}
+#recendNewsofUs .ideas {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#recendNewsofUs .ideas h3 {
+  width: 70%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: #092c3f;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+}
+#recendNewsofUs .ideas p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  color: #737980;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  font-weight: normal;
+}
+#recendNewsofUs .ideas span {
+  width: 70%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  color: red;
+  cursor: pointer;
+}
+#recendNewsofUs .ideas span .readMore {
+  width: 8%;
+  height: 2px;
+  background-color: #EB566C;
+}
+#recendNewsofUs .ideas img {
+  width: 100%;
+  height: 65%;
+}
+#recendNewsofUs .ideas .ByAdmin {
+  position: absolute;
+  bottom: 32%;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 73%;
+  height: 10%;
+  background-color: #F7F7F7;
+  color: #737980;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+#brand-area {
+  width: 100%;
+  height: 245px;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+}
+#brand-area .brandArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#consultingContact {
+  width: 100%;
+  height: 638px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url(/assets/image/footer_bg.jpg);
+}
+#consultingContact .receiveUpdate {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#consultingContact .receiveUpdate img {
+  width: 46%;
+  cursor: pointer;
+}
+#consultingContact .receiveUpdate p {
+  line-height: 29px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #bdbdbd;
+  font-family: poppins;
+}
+#consultingContact .receiveUpdate h4 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  color: white;
+}
+#consultingContact .receiveUpdate h4 span {
+  color: #ff0000;
+}
+#consultingContact .locationExplore {
+  width: 100%;
+  height: 100%;
+}
+#consultingContact .locationExplore h4 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+#consultingContact .locationExplore p {
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+#consultingContact .subscribe {
+  width: 100%;
+  height: 100%;
+}
+#consultingContact .subscribe h4 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+#consultingContact .subscribe p {
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #bdbdbd;
+  cursor: pointer;
+}
+#consultingContact .subscribe .subscribeInput {
+  width: 100%;
+  height: 20%;
+  background-color: #101720;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+#consultingContact .subscribe .subscribeInput input {
+  border: none;
+  width: 75%;
+  height: 100%;
+  background-color: #101720;
+}
+#consultingContact .subscribe .subscribeInput input::placeholder {
+  padding-left: 15px;
+  color: #bdbdbd;
+  line-height: 14px;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 300;
+}
+#consultingContact .subscribe .subscribeInput button {
+  height: 100%;
+  width: 25%;
+  background-color: #0A0F17;
+  border: none;
+  color: white;
+  line-height: 14px;
+  font-size: 14px;
+  font-family: poppins;
+  font-weight: 300;
+}
+#consultingContact .createdYear {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#consultingContact .createdYear p {
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #bdbdbd;
+  width: 80%;
+  height: 25%;
+  display: flex;
+  align-items: end;
+  gap: 3px;
+  border-top: 2px solid #233148;
+}
+#consultingContact .createdYear p i {
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+#consultingContact .createdYear p a {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #FF0000;
+  cursor: pointer;
+}
+#consultingContact .createdYear .copyrighticon {
+  width: 20%;
+  height: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 10px;
+  border-top: 2px solid #233148;
+}
+#consultingContact .createdYear .copyrighticon i {
+  cursor: pointer;
 }
